@@ -1,0 +1,16 @@
+{
+  "search": {
+    "$type": "string",
+    "$value": "all",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  }
+}
