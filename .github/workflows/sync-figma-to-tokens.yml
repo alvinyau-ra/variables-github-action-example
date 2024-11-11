@@ -5,6 +5,7 @@ on:
       file_key:
         description: 'The file key of the Figma file to be updated'
         required: true
+        default: '7dgA3whHOvftnG8TIgvjyP'
 
 jobs:
   sync-figma-to-tokens:
