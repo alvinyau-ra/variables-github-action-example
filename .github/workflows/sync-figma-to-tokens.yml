@@ -34,6 +34,9 @@ jobs:
           FILE_KEY: ${{ github.event.inputs.file_key }}
           PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_ACTION_VARIABLES_SYNC_FIGMA_TOKEN }}
 
+      - name: Build LESS tokens
+        run: npm run build-tokens
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
